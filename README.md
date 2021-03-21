@@ -27,12 +27,17 @@ julia>  import Pkg
 julia>  Pkg.add("IJulia")
 ```
 
-Cada vez que quiera abrir Jupyter notebook en el navegador, ejecute sobre la consola de Julia los siguientes comandos:
+Para trabajar, le recomendamos fijar un directorio de trabajo (ejemplo "C:\\laboratorios") 
+
+Cada vez que quiera abrir Jupyter notebook en el navegador, ejecute sobre la consola de Julia los siguientes comandos (reemplace el directorio en el que trabajará con el suyo)
 
 ```julia
 julia>  using IJulia
-julia>  notebook()
+julia>  notebook(dir="C:\\laboratorios")
 ```
+
+Esto abrirá un navegador en el que verá el directorio elegido. 
+Puede crear un notebook eligiendo "NEW" y "Julia 1.5.4" (o la versión que requiera), creando un archivo con extensión .ipynb (esto es herencia de cuando los Jupyter notebooks se llamaban IPython notebooks).
 
 # 3. Instalar Gurobi
 
