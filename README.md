@@ -116,4 +116,4 @@ julia>  Pkg.build("GLPK") #segunda opción si no funciona el primero
 - [Introducción a Julia](https://juliaacademy.com/p/intro-to-julia)
 - [Documentación de Julia](https://docs.julialang.org/)
 - [Documentación de Gurobi](https://www.gurobi.com/documentation/)
-- [Documentación de JuMP](https://docs.julialang.org/)
+- [Documentación de JuMP](https://jump.dev/JuMP.jl/stable/)
